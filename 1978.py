@@ -4,8 +4,6 @@ N = int(sys.stdin.readline())
 
 arr = list(map(int, input().split()))
 
-mx = max(arr)
-
 count = 0
 for i in range(len(arr)):
     target = arr[i]
